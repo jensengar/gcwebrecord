@@ -25,7 +25,7 @@ export const getDomainFromHost = (appHost: string): string => {
   ));
 
   if (knownDomain === 'localhost') {
-    knownDomain = 'inindca.com';
+    knownDomain = 'mypurecloud.com';
   }
 
   if (!knownDomain) {
